@@ -1,0 +1,39 @@
+\DocumentMetadata{tagging=on, pdfstandard=ua-2}
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\graphicspath{{figures/}}
+
+\pdfcompresslevel=0
+\pdfobjcompresslevel=0
+
+\InputIfFileExists{_alt/paper.alt.tex}{}{}
+
+\begin{document}
+
+\begin{figure}
+  \includegraphics[width=4cm]{example.png}
+  \caption{A chart the store has text for.}
+  \label{fig:plain}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=4cm, alt={Written by hand in the source.}]{example.png}
+  \caption{A chart described inline.}
+  \label{fig:inline}
+\end{figure}
+
+%!alt artifact
+\noindent\includegraphics[width=3cm]{divider.png}
+
+\begin{figure}
+  \begin{tikzpicture}
+    \draw (0,0) rectangle (2,1);
+  \end{tikzpicture}
+  \caption{A picture drawn inline.}
+  \label{fig:drawn}
+\end{figure}
+
+\end{document}

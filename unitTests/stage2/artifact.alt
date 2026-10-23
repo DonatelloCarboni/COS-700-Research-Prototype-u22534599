@@ -1,0 +1,15 @@
+{
+  "schema": "alt/1",
+  "document": "x.tex",
+  "entries": {
+    "divider.png": {
+      "alt": null,
+      "profile": "artifact",
+      "source": "figures/divider.png",
+      "hash": "sha256:87ffdd3909788613",
+      "status": "artifact",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    }
+  }
+}

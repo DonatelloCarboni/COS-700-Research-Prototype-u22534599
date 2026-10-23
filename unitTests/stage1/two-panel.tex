@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+
+\begin{figure}
+  \centering
+  \begin{subfigure}{0.4\linewidth}
+    \includegraphics{example.png}
+    \caption{The left panel.}
+    \label{fig:left}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.4\linewidth}
+    \includegraphics{divider.png}
+    \caption{The right panel.}
+    \label{fig:right}
+  \end{subfigure}
+  \caption{Both panels together.}
+  \label{fig:panels}
+\end{figure}
+
+\end{document}

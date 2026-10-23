@@ -1,0 +1,4 @@
+{
+  "schema": "alt/1",
+  "entries": {
+    "fig:one": { "alt": "oops", }

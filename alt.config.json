@@ -1,0 +1,36 @@
+{
+  "schema": "alt-config/1",
+
+  "model": {
+    "provider": "gemini",
+    "name": "gemma-4-26b-a4b-it",
+    "prompt_version": "fig-v1"
+  },
+
+  "defaults": {
+    "lang": "en",
+    "alt_max_chars": 250
+  },
+
+  "profiles": {
+    "chart": {
+      "match": ["chart", "plot", "curve", "accuracy", "loss", "confusion", "epoch"],
+      "ask_for": "the trend, axis meaning, end values, and any crossing or plateau"
+    },
+    "photo": {
+      "match": ["photo", "sample", "leaf", "specimen"],
+      "ask_for": "the salient subject and only context-relevant detail"
+    },
+    "diagram": {
+      "match": ["diagram", "pipeline", "architecture", "flow"],
+      "ask_for": "the components and the relationships or flow between them"
+    },
+    "artifact": {
+      "match": ["divider", "logo", "ornament", "rule"],
+      "ask_for": null,
+      "from_caption": false
+    }
+  },
+
+  "fallback_profile": "figure"
+}

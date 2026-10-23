@@ -1,0 +1,15 @@
+{
+  "schema": "alt/1",
+  "document": "x.tex",
+  "entries": {
+    "fig:one": {
+      "alt": "Text written for an older version of the figure.",
+      "profile": "figure",
+      "source": "figures/example.png",
+      "hash": "sha256:0000staleaaaa0000",
+      "status": "generated",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    }
+  }
+}

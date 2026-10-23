@@ -1,0 +1,115 @@
+{
+  "schema": "alt/1",
+  "document": "main.tex",
+  "updated": "2026-09-01T17:39Z",
+  "entries": {
+    "fig:fresh-chart": {
+      "alt": "Line chart of test accuracy against training epoch, rising from 61% to 94% over 50 epochs.",
+      "profile": "chart",
+      "source": "figures/fresh-chart.pdf",
+      "hash": "sha256:3a30c5326834e0e6",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-08-17T00:00Z"
+    },
+    "fig:stale-chart": {
+      "alt": "The figure is too unclear to describe.",
+      "profile": "chart",
+      "source": "stale-chart.png",
+      "hash": "sha256:07c67eb452c7a328",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T06:48Z"
+    },
+    "fig:edited-photo": {
+      "alt": "Close-up photograph of a tomato leaf with irregular brown lesions ringed by yellow tissue, characteristic of early blight.",
+      "profile": "photo",
+      "source": "figures/edited-photo.jpg",
+      "hash": "sha256:daa48bf287594c65",
+      "status": "edited",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    },
+    "fig:approved-diagram": {
+      "alt": "Block diagram of a convolutional network: an input feeds a CNN block, which feeds a classifier.",
+      "profile": "diagram",
+      "source": "(drawn inline)",
+      "hash": "sha256:712715ddc7b94a3a",
+      "status": "approved",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    },
+    "fig:override-chart": {
+      "alt": "STORED TEXT: this must lose to the inline alt= in main.tex, even though the entry is approved.",
+      "profile": "chart",
+      "source": "figures/override-chart.pdf",
+      "hash": "sha256:cbc34be0bc840cb3",
+      "status": "approved",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    },
+    "unlabelled-photo.jpg": {
+      "alt": "Photograph of a single leaf on a plain background, keyed by filename because its float carries no label.",
+      "profile": "photo",
+      "source": "figures/unlabelled-photo.jpg",
+      "hash": "sha256:798465f64129136d",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-08-17T00:00Z"
+    },
+    "divider.png": {
+      "alt": null,
+      "profile": "artifact",
+      "source": "figures/divider.png",
+      "hash": "sha256:87ffdd3909788613",
+      "status": "artifact",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    },
+    "fig:new-chart": {
+      "alt": "The figure is too unclear to describe.",
+      "profile": "chart",
+      "source": "new-chart.png",
+      "hash": "sha256:038075beeb5be6e6",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T06:47Z"
+    },
+    "fig:method-diagram": {
+      "alt": "The figure is too unclear to describe.",
+      "profile": "diagram",
+      "source": "method-diagram.png",
+      "hash": "sha256:038075beeb5be6e6",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T17:38Z"
+    },
+    "fig:chapter-tikz": {
+      "alt": "A block diagram of a CNN component with an arrow pointing to the right, indicating an output flow.",
+      "profile": "diagram",
+      "source": "(drawn inline)",
+      "hash": "sha256:aec143a6b172c9d2",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T17:39Z"
+    },
+    "fig:results-plot": {
+      "alt": "The figure is too unclear to describe.",
+      "profile": "chart",
+      "source": "results-plot.pdf",
+      "hash": "sha256:3a30c5326834e0e6",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T17:39Z"
+    },
+    "unlabelled-photo.jpg@chapters/results.tex:12": {
+      "alt": "A solid teal rectangle with the text unlabelled-photo in the center left.",
+      "profile": "photo",
+      "source": "unlabelled-photo.jpg",
+      "hash": "sha256:798465f64129136d",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-09-01T17:39Z"
+    }
+  }
+}

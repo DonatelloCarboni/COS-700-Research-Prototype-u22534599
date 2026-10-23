@@ -1,0 +1,41 @@
+\DocumentMetadata{tagging=on, pdfstandard=ua-2}
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\InputIfFileExists{_alt/main.alt.tex}{}{}
+\begin{document}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figures/fresh-chart.png}
+  \caption{Accuracy against epoch.}
+  \label{fig:fresh}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figures/new-chart.png}
+  \caption{A chart nobody has described yet.}
+  \label{fig:new}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth, alt={Written in the source by hand.}]{figures/inline-chart.png}
+  \caption{A chart whose text is inline.}
+  \label{fig:inline}
+\end{figure}
+
+%!alt artifact
+\includegraphics[width=\linewidth]{figures/divider.png}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figures/absent-chart.png}
+  \caption{A chart whose file was never added.}
+  \label{fig:absent}
+\end{figure}
+
+\input{chapters/method}
+
+\end{document}

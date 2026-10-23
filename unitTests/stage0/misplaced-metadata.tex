@@ -1,0 +1,9 @@
+\documentclass{article}
+\DocumentMetadata{tagging=on, pdfstandard=ua-2}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\begin{document}
+\DocumentMetadata is here but arrives after \documentclass, which already read
+without it. Stage 0 should refuse to reorder the file and stop.
+\end{document}

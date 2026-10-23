@@ -1,0 +1,22 @@
+\DocumentMetadata{tagging=on, pdfstandard=ua-2}
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\graphicspath{{figures/}}
+\InputIfFileExists{_alt/main.alt.tex}{}{}
+
+\begin{document}
+
+\begin{figure}
+  \includegraphics{example.png}
+  \caption{A figure in the main file.}
+  \label{fig:in-main}
+\end{figure}
+
+\input{chapters/method}
+
+\include{chapters/results}
+
+\input{chapters/missing}
+
+\end{document}

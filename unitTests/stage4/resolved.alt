@@ -1,0 +1,15 @@
+{
+  "schema": "alt/1",
+  "document": "resolved.tex",
+  "entries": {
+    "fig:one": {
+      "alt": "Already described, so no model call is needed.",
+      "profile": "chart",
+      "source": "figures/example.png",
+      "hash": "sha256:30f914eee0d13f96",
+      "status": "generated",
+      "by": "gemma-4-26b-a4b-it",
+      "at": "2026-08-18T00:00Z"
+    }
+  }
+}

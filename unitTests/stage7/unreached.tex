@@ -1,0 +1,21 @@
+\DocumentMetadata{tagging=on, pdfstandard=ua-2}
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\graphicspath{{figures/}}
+
+\InputIfFileExists{_alt/unreached.alt.tex}{}{}
+
+\begin{document}
+
+\begin{figure}
+  \begin{tikzpicture}
+    \draw (0,0) rectangle (2,1);
+  \end{tikzpicture}
+  \caption{A picture drawn inline.}
+  \label{fig:drawn}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,12 @@
+.env
+_alt/
+build/
+__pycache__/
+*.pyc
+*.bak
+*.bak.*
+*.tmp
+*.aux
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,24 @@
+{
+  "schema": "alt/1",
+  "document": "x.tex",
+  "entries": {
+    "fig:one": {
+      "alt": "The real one.",
+      "profile": "figure",
+      "source": "figures/example.png",
+      "hash": "sha256:30f914eee0d13f96",
+      "status": "generated",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    },
+    "fig:renamed-away": {
+      "alt": "Left behind by a rename.",
+      "profile": "figure",
+      "source": "figures/example.png",
+      "hash": "sha256:30f914eee0d13f96",
+      "status": "approved",
+      "by": "u22534599",
+      "at": "2026-08-17T00:00Z"
+    }
+  }
+}

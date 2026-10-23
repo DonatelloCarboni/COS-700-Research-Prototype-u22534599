@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+
+\definecolor{mine}{HTML}{0B6E99}
+
+\begin{document}
+
+\begin{figure}
+  \begin{tikzpicture}[node distance=8mm]
+    \node[draw, mine, thick] (a) {input};
+    \node[draw, right=of a] (b) {CNN};
+    \draw[-{Stealth}] (a) -- (b);
+  \end{tikzpicture}
+  \caption{A picture drawn inline, needing the document's own preamble.}
+  \label{fig:tikz}
+\end{figure}
+
+\end{document}
